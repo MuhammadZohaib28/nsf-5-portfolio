@@ -6,6 +6,7 @@
     width: 100%;
     gap: 3rem;
     height: calc(100vh - 6.8rem);
+
 }
 
 .hero-section-top {
@@ -34,6 +35,13 @@
     font-size: 2rem;
     font-weight: 300;
 
+
+}
+
+.hero-section-top-text,
+.hero-section-middle-heading,
+.hero-section-middle-desc {
+    color: var(--text-color);
 }
 
 .hero-section-middle {
