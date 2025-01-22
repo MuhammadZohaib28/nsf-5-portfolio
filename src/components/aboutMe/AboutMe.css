@@ -28,6 +28,13 @@
     width: 80%;
 }
 
+.about-me-bottom-cards-services{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .about-me-bottom-image {
     height: 400px;
     width: 700px;

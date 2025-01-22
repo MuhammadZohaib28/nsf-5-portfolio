@@ -38,21 +38,22 @@ const Services = () => {
                 <TopDataText
                     topText="What I offer"
                     headingText="My Services"
-                    descText="I am a frontend developer based in Karachi, Pakistan"
+                    descText="I am a frontend developer based in Karachi, Pakistan.I am a frontend developer based in Karachi, PakistanI am a frontend developer based in Karachi, Pakistan."
                 />
             </div>
 
 
-            <div className='about-me-bottom-cards'>
+            <div className='about-me-bottom-cards-services'>
                 {cardDataServices.map((item, index) => {
                     return (
 
-                        <Card
+                        <   Card
                             cardHeading={item.cardheading}
                             cardDescription={item.carddesc}
                             cardIcon={item.cardicon}
                             className="card-services"
                             cardReadMore={item.cardReadMore}
+
 
                         />
 
