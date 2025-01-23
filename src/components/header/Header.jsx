@@ -17,27 +17,35 @@ const Header = () => {
     }
 
 
+    const scrollToSection = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+
 
     const headerListItems = [
         {
             name: "Home",
-            route: "/"
+            id: "home"
         },
         {
             name: "About me",
-            route: "/aboutme"
+            id: "aboutme"
         },
         {
             name: "Services",
-            route: "/services"
+            id: "services"
         },
         {
             name: "My Work",
-            route: "/mywork"
+            id: "mywork"
         },
         {
             name: "Contact Me",
-            route: "/contactme"
+            id: "contactme"
         },
     ]
 
@@ -55,7 +63,9 @@ const Header = () => {
             <ul className='header-list-items'>
                 {headerListItems.map((item, index) => {
                     return (
-                        <li key={index}>{item.name}</li>
+                        <li key={index}>
+                            <button className='li-button' onClick={() => scrollToSection(item.id)}>{item.name}</button>
+                        </li>
                     )
                 })}
             </ul>

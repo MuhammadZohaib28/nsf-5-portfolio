@@ -36,7 +36,7 @@ const MyWork = () => {
         }
     ]
     return (
-        <div>
+        <div id='mywork'>
             <div>
                 <TopDataText
                     topText="My portfolio"

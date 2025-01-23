@@ -58,3 +58,11 @@
     color: var(--text-color);
 
 }
+
+
+.li-button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
