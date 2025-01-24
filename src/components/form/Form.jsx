@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import TopDataText from '../sharedComponents/TopDataText'
+import './Form.css'
 
 const Form = () => {
 

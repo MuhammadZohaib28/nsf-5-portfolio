@@ -9,6 +9,7 @@ import image1 from '../../assets/download.jpeg'
 import image2 from '../../assets/download(1).jpeg'
 import image3 from '../../assets/download(2).jpeg'
 import image4 from '../../assets/images.jpeg'
+import './MyWork.css'
 
 const MyWork = () => {
 
